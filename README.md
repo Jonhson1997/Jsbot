@@ -27,6 +27,7 @@ Install Plugin:
 	npm install is-empty
 
 Usage:
+
 	Jsbot.js : 
 	
 		line on 15 replace 'accessToken' by your accessToken
