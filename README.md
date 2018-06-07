@@ -40,6 +40,9 @@ Usage:
 		line on 17 replace 'useridarray' by you wanna add user or comment (it mean // or /**/)
 		line on 540 replace 'Ocp-Apim-Subscription-Key' by your Subscription-Key 
 
+	on cmd:
+		node Jsbot.js
+		if success cmd will display "機器人已運行囉,port: 3001"
 Remark:
 
 	you can find your 'accessToken' and 'channelSecret' in here: https://developers.line.me/console/
