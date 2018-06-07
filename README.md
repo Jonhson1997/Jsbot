@@ -47,3 +47,14 @@ Remark:
 
 	you can find your 'accessToken' and 'channelSecret' in here: https://developers.line.me/console/
 	you can edit the bot run port in Jsbot.js line on 151
+	you can use emoji in here: https://unicode.org/emoji/charts/full-emoji-list.html
+	and copy that code to here: https://r12a.github.io/app-conversion/
+	and convert that
+	copy javascript code to your code
+	ex:
+	U+1F600	-> \uD83D\uDE00
+	you can find Line's emoji in here: https://developers.line.me/media/messaging-api/emoji-list.pdf
+	(need convert to javascript code)
+	you can find Line's sticker in here: https://devdocs.line.me/files/sticker_list.pdf
+	example: https://developers.line.me/en/docs/messaging-api/reference/#sticker
+	you can find Line Messaging API Document in here: https://developers.line.me/en/docs/messaging-api/overview/
