@@ -506,14 +506,12 @@ exports.orderlist = function(line,token) {
 
 exports.getid = function(line,event)  {
 	try{
-    //var guid = event.source.groupId
-    //var ruid = event.source.roomId
     line.client.getProfile(event.source.userId)
       .then((profile) => {
         bot_msg = bot_msg +"Name: "+ profile.displayName +"\n"
         bot_msg = bot_msg +"userId: "+ profile.userId +"\n"
-        bot_msg = bot_msg +"groupId: "+ profile.guid +"\n"
-        bot_msg = bot_msg +"roomId: "+ profile.ruid +"\n"
+        bot_msg = bot_msg +"groupId: "+ event.source.groupId +"\n"
+        bot_msg = bot_msg +"roomId: "+ event.source.roomId +"\n"
         bot_msg = bot_msg +"pictureUrl: "+ profile.pictureUrl +"\n"
         bot_msg = bot_msg +"statusMessage: "+ profile.statusMessage
         func.reply_text(line,event.replyToken,bot_msg)
