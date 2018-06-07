@@ -59,7 +59,7 @@ Remark:
 	example: https://developers.line.me/en/docs/messaging-api/reference/#sticker
 	you can find Line Messaging API Document in here: https://developers.line.me/en/docs/messaging-api/overview/
 
-======================================================================================================
+=================================================================================
 
 參考資料:
 
