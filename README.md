@@ -29,7 +29,6 @@ Install Plugin:
 Usage:
 
 	Jsbot.js : 
-	
 		line on 15 replace 'accessToken' by your accessToken
 		line on 16 replace 'channelSecret' by your channelSecret
 		line on 84 replace 'blockuserlist' by you wanna ban user or comment (it mean // or /**/)
